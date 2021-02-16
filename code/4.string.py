@@ -1,5 +1,7 @@
 myStr = "Hello World"
 
+print("My name is " + myStr)
+
 # print(dir(myStr))
 
 
@@ -15,3 +17,13 @@ print(myStr.startswith('hello')) # busqueda por caracteres
 
 print(myStr.split())
 print(myStr.find('o'))
+
+print(len(myStr))
+
+print(myStr.index('e'))
+
+print(myStr.isnumeric())
+
+print(myStr.isalpha())
+
+print(myStr[4])
